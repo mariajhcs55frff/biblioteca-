@@ -1,0 +1,23 @@
+:root{
+    --roxa: #4d346b;
+    --roxo-escuro: #2d1e40;
+    --lilas: #eee7f7;
+    --fundo: #f7f5f9;
+    --texto: #302a36;
+    --cinza: #716779;
+    --borda: #e2dce8;
+}
+
+*{
+    box-sizing: border-box; 
+}
+html{
+    scroll-behavior: smooth; 
+}
+ body{
+    margin: 0;
+    color: var(--texto);
+    background: var(--fundo);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
+ }
